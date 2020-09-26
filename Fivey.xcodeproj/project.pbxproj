@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B0A3EBB3251FED3500629A62 /* AtlasGrotesk-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0A3EBB1251FED3500629A62 /* AtlasGrotesk-Regular.ttf */; };
+		B0A3EBB4251FED3500629A62 /* AtlasGrotesk-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0A3EBB1251FED3500629A62 /* AtlasGrotesk-Regular.ttf */; };
+		B0A3EBB5251FED3500629A62 /* AtlasGrotesk-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0A3EBB1251FED3500629A62 /* AtlasGrotesk-Regular.ttf */; };
+		B0A3EBB6251FED3500629A62 /* AtlasGrotesk-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0A3EBB2251FED3500629A62 /* AtlasGrotesk-Bold.ttf */; };
+		B0A3EBB7251FED3500629A62 /* AtlasGrotesk-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0A3EBB2251FED3500629A62 /* AtlasGrotesk-Bold.ttf */; };
+		B0A3EBB8251FED3500629A62 /* AtlasGrotesk-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0A3EBB2251FED3500629A62 /* AtlasGrotesk-Bold.ttf */; };
 		DD3FF75424FCAA5600C17A0A /* FiveyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3FF74124FCAA4F00C17A0A /* FiveyApp.swift */; };
 		DD3FF75524FCAA5600C17A0A /* FiveyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3FF74124FCAA4F00C17A0A /* FiveyApp.swift */; };
 		DD3FF75624FCAA5600C17A0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3FF74224FCAA4F00C17A0A /* ContentView.swift */; };
@@ -60,6 +66,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B0A3EBB1251FED3500629A62 /* AtlasGrotesk-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AtlasGrotesk-Regular.ttf"; sourceTree = "<group>"; };
+		B0A3EBB2251FED3500629A62 /* AtlasGrotesk-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AtlasGrotesk-Bold.ttf"; sourceTree = "<group>"; };
 		DD3FF74124FCAA4F00C17A0A /* FiveyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveyApp.swift; sourceTree = "<group>"; };
 		DD3FF74224FCAA4F00C17A0A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DD3FF74324FCAA5500C17A0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -109,6 +117,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B0A3EBAD251FEC4300629A62 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B0A3EBB2251FED3500629A62 /* AtlasGrotesk-Bold.ttf */,
+				B0A3EBB1251FED3500629A62 /* AtlasGrotesk-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		DD3FF73B24FCAA4E00C17A0A = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +190,7 @@
 		DD3FF76F24FCAAF200C17A0A /* FiveyWidget */ = {
 			isa = PBXGroup;
 			children = (
+				B0A3EBAD251FEC4300629A62 /* fonts */,
 				DD3FF77024FCAAF200C17A0A /* FiveyWidget.swift */,
 				DD617C5624FF602100A9C4AB /* Region.swift */,
 				DD3FF77224FCAAF200C17A0A /* FiveyWidget.intentdefinition */,
@@ -289,8 +307,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0A3EBB3251FED3500629A62 /* AtlasGrotesk-Regular.ttf in Resources */,
 				DD3FF75824FCAA5600C17A0A /* Assets.xcassets in Resources */,
 				DD3FF78124FCDB0400C17A0A /* fixture.json in Resources */,
+				B0A3EBB6251FED3500629A62 /* AtlasGrotesk-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,8 +318,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0A3EBB4251FED3500629A62 /* AtlasGrotesk-Regular.ttf in Resources */,
 				DD3FF75924FCAA5600C17A0A /* Assets.xcassets in Resources */,
 				DD3FF78224FCDB0400C17A0A /* fixture.json in Resources */,
+				B0A3EBB7251FED3500629A62 /* AtlasGrotesk-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,8 +329,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0A3EBB5251FED3500629A62 /* AtlasGrotesk-Regular.ttf in Resources */,
 				DD3FF77424FCAAF700C17A0A /* Assets.xcassets in Resources */,
 				DD3FF78324FCDB0400C17A0A /* fixture.json in Resources */,
+				B0A3EBB8251FED3500629A62 /* AtlasGrotesk-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
