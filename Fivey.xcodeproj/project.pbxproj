@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD3FF75424FCAA5600C17A0A /* FiveyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3FF74124FCAA4F00C17A0A /* FiveyApp.swift */; };
+		DD3FF75524FCAA5600C17A0A /* FiveyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3FF74124FCAA4F00C17A0A /* FiveyApp.swift */; };
+		DD3FF75624FCAA5600C17A0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3FF74224FCAA4F00C17A0A /* ContentView.swift */; };
+		DD3FF75724FCAA5600C17A0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3FF74224FCAA4F00C17A0A /* ContentView.swift */; };
+		DD3FF75824FCAA5600C17A0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD3FF74324FCAA5500C17A0A /* Assets.xcassets */; };
+		DD3FF75924FCAA5600C17A0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD3FF74324FCAA5500C17A0A /* Assets.xcassets */; };
+		DD3FF76324FCAA7000C17A0A /* FiveyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3FF76224FCAA7000C17A0A /* FiveyModels.swift */; };
+		DD3FF76424FCAA7000C17A0A /* FiveyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3FF76224FCAA7000C17A0A /* FiveyModels.swift */; };
+		DD3FF76C24FCAAF200C17A0A /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3FF76B24FCAAF200C17A0A /* WidgetKit.framework */; };
+		DD3FF76E24FCAAF200C17A0A /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3FF76D24FCAAF200C17A0A /* SwiftUI.framework */; };
+		DD3FF77124FCAAF200C17A0A /* FiveyWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3FF77024FCAAF200C17A0A /* FiveyWidget.swift */; };
+		DD3FF77424FCAAF700C17A0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD3FF77324FCAAF700C17A0A /* Assets.xcassets */; };
+		DD3FF77624FCAAF700C17A0A /* FiveyWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = DD3FF77224FCAAF200C17A0A /* FiveyWidget.intentdefinition */; };
+		DD3FF77724FCAAF700C17A0A /* FiveyWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = DD3FF77224FCAAF200C17A0A /* FiveyWidget.intentdefinition */; };
+		DD3FF77A24FCAAF700C17A0A /* FiveyWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DD3FF76924FCAAF200C17A0A /* FiveyWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DD3FF77F24FCAB1100C17A0A /* FiveyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3FF76224FCAA7000C17A0A /* FiveyModels.swift */; };
+		DD3FF78124FCDB0400C17A0A /* fixture.json in Resources */ = {isa = PBXBuildFile; fileRef = DD3FF78024FCDB0400C17A0A /* fixture.json */; };
+		DD3FF78224FCDB0400C17A0A /* fixture.json in Resources */ = {isa = PBXBuildFile; fileRef = DD3FF78024FCDB0400C17A0A /* fixture.json */; };
+		DD3FF78324FCDB0400C17A0A /* fixture.json in Resources */ = {isa = PBXBuildFile; fileRef = DD3FF78024FCDB0400C17A0A /* fixture.json */; };
+		DD617C5724FF602100A9C4AB /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD617C5624FF602100A9C4AB /* Region.swift */; };
+		DD617C5824FF602600A9C4AB /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD617C5624FF602100A9C4AB /* Region.swift */; };
+		DD617C5924FF602700A9C4AB /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD617C5624FF602100A9C4AB /* Region.swift */; };
+		DD617C5C24FF6A5000A9C4AB /* WebView in Frameworks */ = {isa = PBXBuildFile; productRef = DD617C5B24FF6A5000A9C4AB /* WebView */; };
+		DD8AF58D24FDB0CE00B561FA /* GraphViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8AF58C24FDB0CE00B561FA /* GraphViews.swift */; };
+		DD8AF58E24FDB3EC00B561FA /* GraphViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8AF58C24FDB0CE00B561FA /* GraphViews.swift */; };
+		DD8AF58F24FDB3EC00B561FA /* GraphViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8AF58C24FDB0CE00B561FA /* GraphViews.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD3FF77824FCAAF700C17A0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD3FF73C24FCAA4E00C17A0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD3FF76824FCAAF200C17A0A;
+			remoteInfo = FiveyWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DD3FF77E24FCAAF700C17A0A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DD3FF77A24FCAAF700C17A0A /* FiveyWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DD3FF74124FCAA4F00C17A0A /* FiveyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveyApp.swift; sourceTree = "<group>"; };
+		DD3FF74224FCAA4F00C17A0A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DD3FF74324FCAA5500C17A0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD3FF74824FCAA5500C17A0A /* Fivey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fivey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD3FF74B24FCAA5500C17A0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD3FF75024FCAA5500C17A0A /* Fivey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fivey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD3FF75224FCAA5500C17A0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD3FF75324FCAA5500C17A0A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		DD3FF76224FCAA7000C17A0A /* FiveyModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveyModels.swift; sourceTree = "<group>"; };
+		DD3FF76924FCAAF200C17A0A /* FiveyWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FiveyWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD3FF76B24FCAAF200C17A0A /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		DD3FF76D24FCAAF200C17A0A /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		DD3FF77024FCAAF200C17A0A /* FiveyWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveyWidget.swift; sourceTree = "<group>"; };
+		DD3FF77224FCAAF200C17A0A /* FiveyWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = FiveyWidget.intentdefinition; sourceTree = "<group>"; };
+		DD3FF77324FCAAF700C17A0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD3FF77524FCAAF700C17A0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD3FF78024FCDB0400C17A0A /* fixture.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fixture.json; sourceTree = "<group>"; };
+		DD617C5624FF602100A9C4AB /* Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
+		DD8AF58C24FDB0CE00B561FA /* GraphViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViews.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD3FF74524FCAA5500C17A0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD617C5C24FF6A5000A9C4AB /* WebView in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD3FF74D24FCAA5500C17A0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD3FF76624FCAAF200C17A0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3FF76E24FCAAF200C17A0A /* SwiftUI.framework in Frameworks */,
+				DD3FF76C24FCAAF200C17A0A /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD3FF73B24FCAA4E00C17A0A = {
+			isa = PBXGroup;
+			children = (
+				DD3FF74024FCAA4F00C17A0A /* Shared */,
+				DD3FF74A24FCAA5500C17A0A /* iOS */,
+				DD3FF75124FCAA5500C17A0A /* macOS */,
+				DD3FF76F24FCAAF200C17A0A /* FiveyWidget */,
+				DD3FF76A24FCAAF200C17A0A /* Frameworks */,
+				DD3FF74924FCAA5500C17A0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD3FF74024FCAA4F00C17A0A /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				DD3FF74124FCAA4F00C17A0A /* FiveyApp.swift */,
+				DD3FF74224FCAA4F00C17A0A /* ContentView.swift */,
+				DD3FF76224FCAA7000C17A0A /* FiveyModels.swift */,
+				DD3FF78024FCDB0400C17A0A /* fixture.json */,
+				DD3FF74324FCAA5500C17A0A /* Assets.xcassets */,
+				DD8AF58C24FDB0CE00B561FA /* GraphViews.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		DD3FF74924FCAA5500C17A0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD3FF74824FCAA5500C17A0A /* Fivey.app */,
+				DD3FF75024FCAA5500C17A0A /* Fivey.app */,
+				DD3FF76924FCAAF200C17A0A /* FiveyWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD3FF74A24FCAA5500C17A0A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DD3FF74B24FCAA5500C17A0A /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		DD3FF75124FCAA5500C17A0A /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				DD3FF75224FCAA5500C17A0A /* Info.plist */,
+				DD3FF75324FCAA5500C17A0A /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		DD3FF76A24FCAAF200C17A0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD3FF76B24FCAAF200C17A0A /* WidgetKit.framework */,
+				DD3FF76D24FCAAF200C17A0A /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD3FF76F24FCAAF200C17A0A /* FiveyWidget */ = {
+			isa = PBXGroup;
+			children = (
+				DD3FF77024FCAAF200C17A0A /* FiveyWidget.swift */,
+				DD617C5624FF602100A9C4AB /* Region.swift */,
+				DD3FF77224FCAAF200C17A0A /* FiveyWidget.intentdefinition */,
+				DD3FF77324FCAAF700C17A0A /* Assets.xcassets */,
+				DD3FF77524FCAAF700C17A0A /* Info.plist */,
+			);
+			path = FiveyWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD3FF74724FCAA5500C17A0A /* Fivey (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD3FF75C24FCAA5600C17A0A /* Build configuration list for PBXNativeTarget "Fivey (iOS)" */;
+			buildPhases = (
+				DD3FF74424FCAA5500C17A0A /* Sources */,
+				DD3FF74524FCAA5500C17A0A /* Frameworks */,
+				DD3FF74624FCAA5500C17A0A /* Resources */,
+				DD3FF77E24FCAAF700C17A0A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD3FF77924FCAAF700C17A0A /* PBXTargetDependency */,
+			);
+			name = "Fivey (iOS)";
+			packageProductDependencies = (
+				DD617C5B24FF6A5000A9C4AB /* WebView */,
+			);
+			productName = "Fivey (iOS)";
+			productReference = DD3FF74824FCAA5500C17A0A /* Fivey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD3FF74F24FCAA5500C17A0A /* Fivey (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD3FF75F24FCAA5600C17A0A /* Build configuration list for PBXNativeTarget "Fivey (macOS)" */;
+			buildPhases = (
+				DD3FF74C24FCAA5500C17A0A /* Sources */,
+				DD3FF74D24FCAA5500C17A0A /* Frameworks */,
+				DD3FF74E24FCAA5500C17A0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fivey (macOS)";
+			productName = "Fivey (macOS)";
+			productReference = DD3FF75024FCAA5500C17A0A /* Fivey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD3FF76824FCAAF200C17A0A /* FiveyWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD3FF77B24FCAAF700C17A0A /* Build configuration list for PBXNativeTarget "FiveyWidgetExtension" */;
+			buildPhases = (
+				DD3FF76524FCAAF200C17A0A /* Sources */,
+				DD3FF76624FCAAF200C17A0A /* Frameworks */,
+				DD3FF76724FCAAF200C17A0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FiveyWidgetExtension;
+			productName = FiveyWidgetExtension;
+			productReference = DD3FF76924FCAAF200C17A0A /* FiveyWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD3FF73C24FCAA4E00C17A0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					DD3FF74724FCAA5500C17A0A = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					DD3FF74F24FCAA5500C17A0A = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					DD3FF76824FCAAF200C17A0A = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = DD3FF73F24FCAA4E00C17A0A /* Build configuration list for PBXProject "Fivey" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD3FF73B24FCAA4E00C17A0A;
+			packageReferences = (
+				DD617C5A24FF6A5000A9C4AB /* XCRemoteSwiftPackageReference "SwiftUI-WebView" */,
+			);
+			productRefGroup = DD3FF74924FCAA5500C17A0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD3FF74724FCAA5500C17A0A /* Fivey (iOS) */,
+				DD3FF74F24FCAA5500C17A0A /* Fivey (macOS) */,
+				DD3FF76824FCAAF200C17A0A /* FiveyWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD3FF74624FCAA5500C17A0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3FF75824FCAA5600C17A0A /* Assets.xcassets in Resources */,
+				DD3FF78124FCDB0400C17A0A /* fixture.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD3FF74E24FCAA5500C17A0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3FF75924FCAA5600C17A0A /* Assets.xcassets in Resources */,
+				DD3FF78224FCDB0400C17A0A /* fixture.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD3FF76724FCAAF200C17A0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3FF77424FCAAF700C17A0A /* Assets.xcassets in Resources */,
+				DD3FF78324FCDB0400C17A0A /* fixture.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD3FF74424FCAA5500C17A0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3FF77724FCAAF700C17A0A /* FiveyWidget.intentdefinition in Sources */,
+				DD3FF75624FCAA5600C17A0A /* ContentView.swift in Sources */,
+				DD3FF75424FCAA5600C17A0A /* FiveyApp.swift in Sources */,
+				DD617C5724FF602100A9C4AB /* Region.swift in Sources */,
+				DD8AF58D24FDB0CE00B561FA /* GraphViews.swift in Sources */,
+				DD3FF76324FCAA7000C17A0A /* FiveyModels.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD3FF74C24FCAA5500C17A0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3FF75724FCAA5600C17A0A /* ContentView.swift in Sources */,
+				DD3FF75524FCAA5600C17A0A /* FiveyApp.swift in Sources */,
+				DD3FF76424FCAA7000C17A0A /* FiveyModels.swift in Sources */,
+				DD617C5824FF602600A9C4AB /* Region.swift in Sources */,
+				DD8AF58E24FDB3EC00B561FA /* GraphViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD3FF76524FCAAF200C17A0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3FF77624FCAAF700C17A0A /* FiveyWidget.intentdefinition in Sources */,
+				DD3FF77124FCAAF200C17A0A /* FiveyWidget.swift in Sources */,
+				DD3FF77F24FCAB1100C17A0A /* FiveyModels.swift in Sources */,
+				DD617C5924FF602700A9C4AB /* Region.swift in Sources */,
+				DD8AF58F24FDB3EC00B561FA /* GraphViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD3FF77924FCAAF700C17A0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD3FF76824FCAAF200C17A0A /* FiveyWidgetExtension */;
+			targetProxy = DD3FF77824FCAAF700C17A0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DD3FF75A24FCAA5600C17A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD3FF75B24FCAA5600C17A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DD3FF75D24FCAA5600C17A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 782Q3FHFU5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CastIrony.Fivey;
+				PRODUCT_NAME = Fivey;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD3FF75E24FCAA5600C17A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 782Q3FHFU5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CastIrony.Fivey;
+				PRODUCT_NAME = Fivey;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD3FF76024FCAA5600C17A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 782Q3FHFU5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CastIrony.Fivey;
+				PRODUCT_NAME = Fivey;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DD3FF76124FCAA5600C17A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 782Q3FHFU5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CastIrony.Fivey;
+				PRODUCT_NAME = Fivey;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DD3FF77C24FCAAF700C17A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 782Q3FHFU5;
+				INFOPLIST_FILE = FiveyWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CastIrony.Fivey.FiveyWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD3FF77D24FCAAF700C17A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 782Q3FHFU5;
+				INFOPLIST_FILE = FiveyWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CastIrony.Fivey.FiveyWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD3FF73F24FCAA4E00C17A0A /* Build configuration list for PBXProject "Fivey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD3FF75A24FCAA5600C17A0A /* Debug */,
+				DD3FF75B24FCAA5600C17A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD3FF75C24FCAA5600C17A0A /* Build configuration list for PBXNativeTarget "Fivey (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD3FF75D24FCAA5600C17A0A /* Debug */,
+				DD3FF75E24FCAA5600C17A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD3FF75F24FCAA5600C17A0A /* Build configuration list for PBXNativeTarget "Fivey (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD3FF76024FCAA5600C17A0A /* Debug */,
+				DD3FF76124FCAA5600C17A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD3FF77B24FCAAF700C17A0A /* Build configuration list for PBXNativeTarget "FiveyWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD3FF77C24FCAAF700C17A0A /* Debug */,
+				DD3FF77D24FCAAF700C17A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DD617C5A24FF6A5000A9C4AB /* XCRemoteSwiftPackageReference "SwiftUI-WebView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kylehickinson/SwiftUI-WebView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DD617C5B24FF6A5000A9C4AB /* WebView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD617C5A24FF6A5000A9C4AB /* XCRemoteSwiftPackageReference "SwiftUI-WebView" */;
+			productName = WebView;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DD3FF73C24FCAA4E00C17A0A /* Project object */;
+}
